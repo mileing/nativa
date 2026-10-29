@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-forest: #285943;
+    --color-natural: #6F9E73;
+    --color-beige: #F3EBDD;
+    --color-terracotta: #C97852;
+    --color-canvas: #FAF7F2;
+    --color-pine: #1A382A;
+  }
+
+  body {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    color: #1A382A;
+    background-color: #FAF7F2;
+  }
+}
+
+.font-serif-quote {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-sans-display {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+}
